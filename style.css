@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+#gameArea {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid white;
+  position: relative;
+  background: black;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #444;
+  color: white;
+}
+
+button:active {
+  background: #666;
+}
+
+#ranking {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
